@@ -1,6 +1,5 @@
-This repository contains code examples for interfacing micro controller with
-various components and sensors.
+This branch contains code examples using following youtube series
+[New Arduino Tutorials](https://www.youtube.com/playlist?list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP)
 
-Following branches are there
-1. arduino_ide_examples: This branch contains various examples/tutorials for arduino written
-in aruino ide (.ino files).
+List of tutorials
+1. [Tutorial 03: breadboard](./tutorial3-breadboard/)
