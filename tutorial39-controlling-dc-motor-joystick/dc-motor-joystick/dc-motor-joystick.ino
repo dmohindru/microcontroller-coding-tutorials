@@ -4,7 +4,7 @@ int dir2 = 3;
 int mSpeed;
 int xJoyStickPin = A0;
 int xJoyStickVal, scaledValue;
-int lowZero = 260, highZero = 275; // Range of joystick reading for which motor will remain off
+int lowZero = 500, highZero = 523; // Range of joystick reading for which motor will remain off
 void setup() {
   pinMode(speedPin, OUTPUT);
   pinMode(dir1, OUTPUT);
@@ -30,10 +30,12 @@ void loop() {
   } else {
     analogWrite(speedPin, 0);
     scaledValue = 0;
+    mSpeed = 0;
   }
 
   if (scaledValue) {
-    mSpeed = (int)((130.0/390.0) * xJoyStickVal + 125);
+    mSpeed = (int)((130.0/500.0) * scaledValue + 125);
+    // mSpeed = (int)((130.0/500.0) * scaledValue);
     analogWrite(speedPin, 255);
   }
 
