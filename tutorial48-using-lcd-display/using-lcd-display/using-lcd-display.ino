@@ -8,7 +8,7 @@ int d7 = 12;
 int dt_large = 1000;
 int dt_small = 500;
 
-LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
+
 
 void setup() {
   // Begin LCD
