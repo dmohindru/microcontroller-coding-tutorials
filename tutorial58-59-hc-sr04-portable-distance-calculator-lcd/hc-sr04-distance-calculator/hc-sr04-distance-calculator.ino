@@ -1,16 +1,29 @@
+#include<LiquidCrystal.h>
+int rs = 7;
+int en = 8;
+int d4 = 9;
+int d5 = 10;
+int d6 = 11;
+int d7 = 12;
+
 int triggerPin = 3;
 int echoPin = 2;
 int pingTravelTime;
 int distance;
+int dt = 1000;
+
+LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
 void setup() {
   pinMode(triggerPin, OUTPUT);
   pinMode(echoPin, INPUT);
-  Serial.begin(9600);  
+  Serial.begin(9600);
+  lcd.begin(16, 2);  
 
 }
 
 void loop() {
+  // hc-sr04 sensor related code 
   digitalWrite(triggerPin, LOW);
   delayMicroseconds(10);
   digitalWrite(triggerPin, HIGH);
@@ -24,43 +37,18 @@ void loop() {
   Serial.print("Distance: ");
   Serial.print(distance);
   Serial.println(" mm");
-  delay(25);
-
-}
-
-/**
-LCD code
-#include<LiquidCrystal.h>
-int rs = 7;
-int en = 8;
-int d4 = 9;
-int d5 = 10;
-int d6 = 11;
-int d7 = 12;
-int dt_large = 1000;
-int dt_small = 500;
-
-LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
-
-void setup() {
-  // Begin LCD
-  lcd.begin(16, 2);
-
-}
-
-void loop() {
+  
+  // LCD related code
+  // Print distance string on row 0
   lcd.setCursor(0, 0);
-  lcd.print("Watch me Count");
+  lcd.print("Distance");
+  // Print actual distance number on row 1 
   lcd.setCursor(0, 1);
-  for (int j=1; j<=10;j++) {
-    lcd.setCursor(0, 1);
-    lcd.print(j);
-    delay(dt_small);
-  }
-  //delay(dt_large);
+  lcd.print(distance);
+  lcd.print(" mm");
+  
+  delay(dt);
   lcd.clear();
 
 }
-
-*/
 
