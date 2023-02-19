@@ -1,0 +1,66 @@
+int triggerPin = 3;
+int echoPin = 2;
+int pingTravelTime;
+int distance;
+
+void setup() {
+  pinMode(triggerPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  Serial.begin(9600);  
+
+}
+
+void loop() {
+  digitalWrite(triggerPin, LOW);
+  delayMicroseconds(10);
+  digitalWrite(triggerPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(triggerPin, LOW);
+  // Ping travel time is in microseconds
+  pingTravelTime = pulseIn(echoPin, HIGH);
+  // Speed of sound is 343 meter/second
+  // which is equivelant 0.343 mm/microseconds
+  distance = 0.343 * pingTravelTime / 2.0;
+  Serial.print("Distance: ");
+  Serial.print(distance);
+  Serial.println(" mm");
+  delay(25);
+
+}
+
+/**
+LCD code
+#include<LiquidCrystal.h>
+int rs = 7;
+int en = 8;
+int d4 = 9;
+int d5 = 10;
+int d6 = 11;
+int d7 = 12;
+int dt_large = 1000;
+int dt_small = 500;
+
+LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
+
+void setup() {
+  // Begin LCD
+  lcd.begin(16, 2);
+
+}
+
+void loop() {
+  lcd.setCursor(0, 0);
+  lcd.print("Watch me Count");
+  lcd.setCursor(0, 1);
+  for (int j=1; j<=10;j++) {
+    lcd.setCursor(0, 1);
+    lcd.print(j);
+    delay(dt_small);
+  }
+  //delay(dt_large);
+  lcd.clear();
+
+}
+
+*/
+

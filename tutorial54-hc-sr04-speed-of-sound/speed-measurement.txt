@@ -1,0 +1,23 @@
+Pulse time	|	Distance (mm)
+------------------------------------
+200		|	80
+300		|	112
+400		|	152
+500		|	180
+600		|	202
+700		|	242
+800		|	268
+900		|	300
+
+Slope of line
+(300-80)/(900-200) = 0.314 (mm/us)
+
+Speed of sound
+= distance traveled (m) / time taken (sec)
+= 0.300/ 0.0009
+= 333.33 meters/second
+
+Reported number on internet
+343 meters/second
+
+
