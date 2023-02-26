@@ -1,7 +1,7 @@
 int speedPin = 5;
 int dir1 = 4;
 int dir2 = 3;
-int mSpeed=100;
+int mSpeed=200;
 void setup() {
   pinMode(speedPin, OUTPUT);
   pinMode(dir1, OUTPUT);
