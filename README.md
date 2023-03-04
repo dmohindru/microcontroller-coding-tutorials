@@ -3,7 +3,7 @@ This branch contains code examples using following youtube series
 [Tutorial website](https://toptechboy.com/arduino-lessons)
 
 List of tutorials
-1. [Tutorial 03: Blinking led](./tutorial1-blinkingled). Original [link](https://toptechboy.com/arduino-tutorial-1-getting-started-with-the-arduino-for-beginners/)
+1. [Tutorial 01: Blinking led](./tutorial1-blinkingled). Original [link](https://toptechboy.com/arduino-tutorial-1-getting-started-with-the-arduino-for-beginners/)
 2. [Tutorial 03: breadboard](./tutorial3-breadboard/). Original [link](https://toptechboy.com/arduino-tutorial-3-understanding-how-breadboards-work/)
 3. [Tutorial 04: morsecode](./tutorial4-morsecode/). Original [link](https://toptechboy.com/arduino-tutorial-4-understanding-arduino-variables/)
 4. [Tutorial 05-06: binary numbers](./tutorial5-6-binarynumbers/). Original tutorial 05 [link](https://toptechboy.com/arduino-tutorial-5-understanding-and-working-with-binary-numbers/) Original tutorial 06 [link](https://toptechboy.com/arduino-tutorial-6-build-an-led-binary-counter/)
@@ -13,6 +13,10 @@ List of tutorials
 8. [Tutorial 11: serialport](./tutorial11-serialport/). Original [link](https://toptechboy.com/arduino-tutorial-11-understanding-the-arduino-serial-port-and-print-commands/)
 9. [Tutorial 12: petentiometers](./tutorial12-potentiometers/). Original [link](https://toptechboy.com/arduino-tutorial-12-understanding-potentiometers/)
 10. [Tutorial 13: if statements](./tutorial13-ifstatements/). Original [link](https://toptechboy.com/arduino-tutorial-13-understanding-arduino-if-statements/)
-11. [Tutorial 13: if dimmable led](./tutorial14-dimmable-led/). Original [link](https://toptechboy.com/arduino-tutorial-14-dimmable-led-project/)
-
-
+11. [Tutorial 14: dimmable led](./tutorial14-dimmable-led/). Original [link](https://toptechboy.com/arduino-tutorial-14-dimmable-led-project/)
+12. [Tutorial 15: for loop](./tutorial15-forloop/). Original [link](https://toptechboy.com/arduino-tutorial-15-understanding-arduino-for-loops/)
+13. [Tutorial 16: fun with for loop](./tutorial16-fun-with-for-loop/). Original [link](https://toptechboy.com/arduino-tutorial-16-fun-with-arduino-for-loops/)
+14. [Tutorial 17: while loop](./tutorial17-while-loop/). Original [link](https://toptechboy.com/arduino-tutorial-17-understanding-arduino-while-loops/)
+15. [Tutorial 18: reading numbers](./tutorial18-readnumber/). Original [link](https://toptechboy.com/arduino-tutorial-18-reading-numbers-from-the-serial-monitor/)
+16. [Tutorial 19: reading strings](./tutorial19-readstring/). Original [link](https://toptechboy.com/arduino-tutorial-19-reading-strings-from-the-serial-monitor/)
+17. [Tutorial 20: rgb led](./tutorial20-rgb-led/). Original [link](https://toptechboy.com/arduino-tutorial-20-understanding-rgb-leds/)
