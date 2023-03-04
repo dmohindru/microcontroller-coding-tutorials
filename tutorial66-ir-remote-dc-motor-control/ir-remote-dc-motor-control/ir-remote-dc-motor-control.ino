@@ -28,7 +28,7 @@ void setup() {
 }
 
 void loop() {
-  IR.decode();
+  while(IR.decode());
   switch(IR.decodedIRData.command) {
     case pwr:
       Serial.print("power");
