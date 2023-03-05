@@ -10,7 +10,7 @@ float r = 2;
 float area;
 void setup() {
   // put your setup code here, to run once:
-  Serial.begin(115200);
+  Serial.begin(9600);
 
 }
 

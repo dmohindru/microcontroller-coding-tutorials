@@ -1,0 +1,1 @@
+extern void print(char *message, int time);
