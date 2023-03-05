@@ -1,4 +1,4 @@
-# This branch contains following category of examples \
+# This branch contains following category of examples
 ## Cherry picked code examples from `arduino_ide_example` branch to be done in platformio
 ## Arduino Communication Examples 
 ### Following communication protocols covered in this branch 
@@ -12,7 +12,7 @@
 
 
 ### List of Cherry picked tutorial from `arduino_ide_example` branch 
-1. [Tutorial 01: Blinking led](./plafformio_examples/tutorial01-blinkingled) -- TODO
+1. [Tutorial 01: Blinking led](./platformio_examples/tutorial01-blinkingled) -- TODO
 2. [Tutorial 02: Binary Numbers](./tutorial5-6-binarynumbers/)
 3. [Tutorial 03: Analog wire](./tutorial7-analogwrite/).
 4. [Tutorial 04: pwm](./tutorial8-pwm/). 
