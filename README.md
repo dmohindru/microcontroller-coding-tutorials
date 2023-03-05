@@ -1,64 +1,31 @@
-This branch contains code examples using following youtube series \
-[New Arduino Tutorials](https://www.youtube.com/playlist?list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP) \
-[Tutorial website](https://toptechboy.com/arduino-lessons)
+# This branch contains following category of examples \
+## Cherry picked code examples from `arduino_ide_example` branch to be done in platformio
+## Arduino Communication Examples 
+### Following communication protocols covered in this branch 
+- SPI
+- I2C
+- UART
+- WIFI
+- Radio
+## Debugging Examples
 
-List of tutorials
-1. [Tutorial 01: Blinking led](./tutorial1-blinkingled). Original [link](https://toptechboy.com/arduino-tutorial-1-getting-started-with-the-arduino-for-beginners/)
-2. [Tutorial 03: breadboard](./tutorial3-breadboard/). Original [link](https://toptechboy.com/arduino-tutorial-3-understanding-how-breadboards-work/)
-3. [Tutorial 04: morsecode](./tutorial4-morsecode/). Original [link](https://toptechboy.com/arduino-tutorial-4-understanding-arduino-variables/)
-4. [Tutorial 05-06: binary numbers](./tutorial5-6-binarynumbers/). Original tutorial 05 [link](https://toptechboy.com/arduino-tutorial-5-understanding-and-working-with-binary-numbers/) Original tutorial 06 [link](https://toptechboy.com/arduino-tutorial-6-build-an-led-binary-counter/)
-5. [Tutorial 07: analogwire](./tutorial7-analogwrite/). Original [link](https://toptechboy.com/arduino-tutorial-7-understanding-the-arduino-analog-write-command/)
-6. [Tutorial 08: pwm](./tutorial8-pwm/). Original [link](https://toptechboy.com/arduino-tutorial-8-understanding-pulse-width-modulation-pwm-and-the-arduino-analog-write-command/)
-7. [Tutorial 10: analogread](./tutorial10-analogread/). Original [link](https://toptechboy.com/arduino-tutorial-10-understanding-how-to-read-analog-voltage-using-analogread-command/)
-8. [Tutorial 11: serialport](./tutorial11-serialport/). Original [link](https://toptechboy.com/arduino-tutorial-11-understanding-the-arduino-serial-port-and-print-commands/)
-9. [Tutorial 12: petentiometers](./tutorial12-potentiometers/). Original [link](https://toptechboy.com/arduino-tutorial-12-understanding-potentiometers/)
-10. [Tutorial 13: if statements](./tutorial13-ifstatements/). Original [link](https://toptechboy.com/arduino-tutorial-13-understanding-arduino-if-statements/)
-11. [Tutorial 14: dimmable led](./tutorial14-dimmable-led/). Original [link](https://toptechboy.com/arduino-tutorial-14-dimmable-led-project/)
-12. [Tutorial 15: for loop](./tutorial15-forloop/). Original [link](https://toptechboy.com/arduino-tutorial-15-understanding-arduino-for-loops/)
-13. [Tutorial 16: fun with for loop](./tutorial16-fun-with-for-loop/). Original [link](https://toptechboy.com/arduino-tutorial-16-fun-with-arduino-for-loops/)
-14. [Tutorial 17: while loop](./tutorial17-while-loop/). Original [link](https://toptechboy.com/arduino-tutorial-17-understanding-arduino-while-loops/)
-15. [Tutorial 18: reading numbers](./tutorial18-readnumber/). Original [link](https://toptechboy.com/arduino-tutorial-18-reading-numbers-from-the-serial-monitor/)
-16. [Tutorial 19: reading strings](./tutorial19-readstring/). Original [link](https://toptechboy.com/arduino-tutorial-19-reading-strings-from-the-serial-monitor/)
-17. [Tutorial 20: rgb led](./tutorial20-rgb-led/). Original [link](https://toptechboy.com/arduino-tutorial-20-understanding-rgb-leds/)
-18. [Tutorial 21: mixing rgb color](./tutorial21-mixing-rgb-color/). Original [link](https://toptechboy.com/arduino-tutorial-21-understanding-and-mixing-primary-colors-with-an-rgb-led/)
-19. [Tutorial 22: active buzzers](./tutorial22-active-buzzers/). Original [link](https://toptechboy.com/arduino-tutorial-22-understanding-and-using-active-buzzers-to-add-sound-to-your-project/)
-20. [Tutorial 23: active buzzers tones](./tutorial23-chaning-tone-active-buzzer/). Original [link](https://toptechboy.com/arduino-tutorial-23-changing-tone-of-an-active-buzzer/)
-21. [Tutorial 24: passive buzzers](./tutorial24-passive-buzzer/). Original [link](https://toptechboy.com/arduino-tutorial-24-understanding-passive-buzzers/)
-22. [Tutorial 25: photo resistors readings](./tutorial25-photoresistor-reading/). Original [link](https://toptechboy.com/arduino-tutorial-25-understanding-photoresistors-and-photo-detectors/)
-23. [Tutorial 26: photo resistors passive buzzer](./tutorial26-photoresistor-passivebuzzer/). Original [link](https://toptechboy.com/arduino-tutorial-26-more-fun-with-photo-resistors/)
-24. [Tutorial 27: push button pull up pull down resistors](./tutorial27-pushbutton-pullup-pulldown-resistor/). Original [link](https://toptechboy.com/arduino-tutorial-27-understanding-pushbuttons-and-pull-up-and-pull-down-resistors/)
-25. [Tutorial 28: push button toggle switch](./tutorial28-pushbutton-toggleswitch/). Original [link](https://toptechboy.com/arduino-tutorial-28-using-a-pushbutton-as-a-toggle-switch/)
-26. [Tutorial 29: dimmable led](./tutorial29-pushbutton-dimable-led/). Original [link](https://toptechboy.com/arduino-tutorial-29-using-push-buttons-to-create-dimmable-led/)
-27. [Tutorial 30: using servos](./tutorial30-usingservos/). Original [link](https://toptechboy.com/arduino-tutorial-30-understanding-and-using-servos-in-projects/)
-28. [Tutorial 31: servo photo resistor](./tutorial31-servo-photo-resistor-project/). Original [link](https://toptechboy.com/arduino-tutorial-31-using-servo-in-a-simple-project/)
-29. [Tutorial 32: using joystick](./tutorial32-using-joystick/). Original [link](https://toptechboy.com/arduino-tutorial-32-understanding-and-using-joysticks-in-a-project/)
-30. [Tutorial 33: controlling servo with joystick](./tutorial33-controlling-servo-with-joystick/). Original [link](https://toptechboy.com/arduino-tutorial-33-understanding-how-to-control-servos-with-a-joystick/)
-31. [Tutorial 34: simple way push button](./tutorial34-simple-way-use-pushbutton-switch/). Original [link](https://toptechboy.com/arduino-tutorial-34-simplest-way-to-use-a-pushbutton-switch/)
-32. [Tutorial 35: using stepper motor](./tutorial35-how-to-use-stepper-motor/). Original [link](https://toptechboy.com/arduino-tutorial-35-understanding-how-to-use-a-stepper-motor/)
-33. [Tutorial 36: tilt switch](./tutorial36-tilt-switches/). Original [link](https://toptechboy.com/arduino-tutorial-36-understanding-how-to-use-tilt-switches-in-your-projects/)
-34. [Tutorial 37: control dc motor](./tutorial37-control-dc-motor/). Original [link](https://toptechboy.com/arduino-tutorial-37-understanding-how-to-control-dc-motors-in-projects/)
-35. [Tutorial 38: control dc motor with tilt switch](./tutorial38-dc-motor-tilt-switch/). Original [link](https://toptechboy.com/arduino-tutorial-38-using-a-tilt-switch-cut-off-with-a-dc-motor/)
-36. [Tutorial 39: control dc motor with joy stick](./tutorial39-controlling-dc-motor-joystick/). Original [link](https://toptechboy.com/arduino-tutorial-39-using-a-joystick-to-control-dc-motor-speed-and-direction/)
-37. [Tutorial 40: control dc motor with push button](./tutorial40-controlling-dc-motor-pushbutton/). Original [link](https://toptechboy.com/arduino-tutorial-40-controlling-dc-motor-speed-and-direction-with-pushbuttons/)
-38. [Tutorial 41: understanding hex numbers](./tutorial41-understand-hex-number/). Original [link](https://toptechboy.com/arduino-tutorial-41-understanding-hexadecimal-numbers-and-why-they-are-important/)
-39. [Tutorial 42: serial parllel shift register 74hc595](./tutorial42-serial-parllel-shift-register-74hc595/). Original [link](https://toptechboy.com/arduino-tutorial-42-understanding-how-to-use-a-serial-to-parallel-shift-register-74hc595/)
-40. [Tutorial 43: 74hc595 binary counter](./tutorial43-binary-counter-74hc595-shift-register/). Original [link](https://toptechboy.com/arduino-tutorial-43-binary-counter-with-74hc595-serial-to-parallel-shift-register/)
-41. [Tutorial 44: 74hc595 logical shift operation](./tutorial44-logical-shift-74HC595/). Original [link](https://toptechboy.com/arduino-tutorial-44-understanding-logical-shift-left-and-logical-shift-right-with-the74hc595/)
-42. [Tutorial 45: 74hc595 circular shift operation](./tutorial45-circular-shift-74HC595/). Original [link](https://toptechboy.com/arduino-tutorial-45-understanding-circular-shift-left-and-circular-shift-right-with-the-74hc595/)
-43. [Tutorial 46-47: 74hc595 bit flipper](./tutorial46-47-bit-flipper-74HC595/). Original [link](https://toptechboy.com/arduino-tutorial-47-binary-and-hexadecimal-bit-flipper/)
-44. [Tutorial 48: using lcd display](./tutorial48-using-lcd-display/). Original [link](https://toptechboy.com/arduino-tutorial-48-connecting-and-using-an-lcd-display/)
-45. [Tutorial 49: simple lcd calculator](./tutorial49-lcd-simple-calculator/). Original [link](https://toptechboy.com/arduino-tutorial-49-how-to-build-a-simple-calculator-with-lcd-display/)
-46. [Tutorial 50-51: dht sensor](./tutorial50-51-dht-sensor/). Original [link](https://toptechboy.com/arduino-tutorial-51-dht11-temperature-and-humidity-sensor-with-lcd-display/)
-47. [Tutorial 52: dht sensor with lcd](./tutorial52-dht-sensor-lcd/). Original [link](https://toptechboy.com/arduino-tutorial-52-portable-temperature-and-humidity-sensor-with-dht11/)
-48. [Tutorial 53: HC-SR-04 Sensor](./tutorial53-hc-sr04-sensor/). Original [link](https://toptechboy.com/arduino-tutorial-53-understanding-and-connecting-the-hc-sr04-sensor/)
-49. [Tutorial 54: HC-SR-04 Sensor speed of light](./tutorial54-hc-sr04-speed-of-sound/). Original [link](https://toptechboy.com/arduino-tutorial-54-measuring-speed-of-sound-with-hc-sr04-sensor/)
-50. [Tutorial 55: HC-SR-04 Sensor distance calculator](./tutorial55-hc-sr04-distance-calculator/). Original [link](https://toptechboy.com/arduino-tutorial-55-measuring-distance-with-hc-sr04-ultrasonic-sensor/)
-51. [Tutorial 56: Serial plotter](./tutorial56-using-serial-plotter/). Original [link](https://toptechboy.com/arduino-tutorial-56-how-to-graph-live-data-using-the-serial-plotter/)
-52. [Tutorial 57: Serial plotter multiple channel](./tutorial57-serial-ploting-multiple-channels/). Original [link](https://toptechboy.com/arduino-tutorial-57-how-to-plot-multiple-channels-on-the-serial-plotter/)
-53. [Tutorial 58-59: portable HCSR04 sensor distance calculator](./tutorial58-59-hc-sr04-portable-distance-calculator-lcd/). Original [link](https://toptechboy.com/arduino-tutorial-59-how-to-build-a-portable-distance-sensor-ultrasonic-sensor/)
-54. [Tutorial 60: portable HCSR04 sensor distance calculator with push button](./tutorial60-hc-sr04-portable-distance-calculator-lcd-pushbutton/). Original [link](https://toptechboy.com/arduino-tutorial-60-add-a-go-button-to-your-distance-sensor/)
-55. [Tutorial 61: portable HCSR04 sensor distance calculator better accuracy](./tutorial61-hc-sr04-portable-distance-calculator-lcd-imporove-accuracy/). Original [link](https://toptechboy.com/arduino-tutorial-61-improving-precision-of-your-distance-measurements/)
-56. [Tutorial 64-65: ir remote](./tutorial64-65-ir-remote/). Tutorial 64 Original [link](https://toptechboy.com/arduino-tutorial-64-understanding-and-using-the-infrared-ir-remote-to-control-a-project/) Tutorial 65 Original [link](https://toptechboy.com/arduino-tutorial-65-creating-useful-commands-from-ir-remote-buttons/)
-56. [Tutorial 66: ir remote dc motor](./tutorial66-ir-remote-dc-motor-control/). Tutorial Original [link](https://toptechboy.com/arduino-tutorial-66-controlling-dc-motor-speed-and-direction-with-a-remote/)
 
+
+### List of Cherry picked tutorial from `arduino_ide_example` branch 
+1. [Tutorial 01: Blinking led](./plafformio_examples/tutorial01-blinkingled) -- TODO
+2. [Tutorial 02: Binary Numbers](./tutorial5-6-binarynumbers/)
+3. [Tutorial 03: Analog wire](./tutorial7-analogwrite/).
+4. [Tutorial 04: pwm](./tutorial8-pwm/). 
+5. [Tutorial 05: serialport](./tutorial11-serialport/).
+6. [Tutorial 06: petentiometers](./tutorial12-potentiometers/). 
+7. [Tutorial 07: dimmable led](./tutorial14-dimmable-led/).
+8. [Tutorial 08: reading numbers and string from serial port](./tutorial18-readnumber/).
+9. [Tutorial 09: controlling servo with joystick](./tutorial33-controlling-servo-with-joystick/).
+10. [Tutorial 10: simple way push button as toggle switch](./tutorial34-simple-way-use-pushbutton-switch/).
+11. [Tutorial 11: using stepper motor](./tutorial35-how-to-use-stepper-motor/).
+12. [Tutorial 12: control dc motor with push button](./tutorial40-controlling-dc-motor-pushbutton/).
+13. [Tutorial 13: 74hc595 binary counter](./tutorial43-binary-counter-74hc595-shift-register/).
+14. [Tutorial 14: simple lcd calculator](./tutorial49-lcd-simple-calculator/).
+15. [Tutorial 15: dht sensor with lcd](./tutorial52-dht-sensor-lcd/).
+16. [Tutorial 16: HC-SR-04 Sensor distance calculator](./tutorial55-hc-sr04-distance-calculator/).
 
