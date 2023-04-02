@@ -28,6 +28,8 @@
 14. [Tutorial 14: simple lcd calculator](./platformio_examples/tutorial14-lcd-simple-calculator/) -- TODO
 15. [Tutorial 15: dht sensor with lcd](./platformio_examples/tutorial15-dht-sensor-lcd/)-- TODO
 16. [Tutorial 16: HC-SR-04 Sensor distance calculator](./platformio_examples/tutorial16-hc-sr04-distance-calculator/) -- TODO
+17. [Tutorial 17: Debug Setup](./platformio_examples/tutorial17-debug-example/)
 
 ### List of Tutorial for Arduino communication
 1. [Tutorial 01: I2C communication](./communication-examples/i2c-example)
+2. [Tutorial 02: UART communication](./communication-examples/uart-example)
