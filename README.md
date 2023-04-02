@@ -13,7 +13,7 @@
 
 ### List of Cherry picked tutorial from `arduino_ide_example` branch 
 1. [Tutorial 01: Blinking led](./platformio_examples/tutorial01-blinkingled)
-2. [Tutorial 02: Binary Numbers](./platformio_examples/tutorial02-binary-numbers/) -- TODO
+2. [Tutorial 02: Binary Numbers](./platformio_examples/tutorial02-binary-numbers/)
 3. [Tutorial 03: Analog wire](./platformio_examples/tutorial03-analogwrite/ -- TODO
 4. [Tutorial 04: pwm](./platformio_examples/tutorial04-pwm/) -- TODO
 5. [Tutorial 05: serialport](./platformio_examples/tutorial05-serialport/
