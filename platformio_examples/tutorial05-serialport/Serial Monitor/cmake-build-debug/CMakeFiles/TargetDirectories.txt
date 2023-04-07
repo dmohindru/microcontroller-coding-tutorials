@@ -1,0 +1,5 @@
+/home/dhruv/Programming/arduino/arduino-tutorial-series/platformio_examples/tutorial05-serialport/Serial Monitor/cmake-build-debug/CMakeFiles/Production.dir
+/home/dhruv/Programming/arduino/arduino-tutorial-series/platformio_examples/tutorial05-serialport/Serial Monitor/cmake-build-debug/CMakeFiles/Debug.dir
+/home/dhruv/Programming/arduino/arduino-tutorial-series/platformio_examples/tutorial05-serialport/Serial Monitor/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir
+/home/dhruv/Programming/arduino/arduino-tutorial-series/platformio_examples/tutorial05-serialport/Serial Monitor/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dhruv/Programming/arduino/arduino-tutorial-series/platformio_examples/tutorial05-serialport/Serial Monitor/cmake-build-debug/CMakeFiles/rebuild_cache.dir

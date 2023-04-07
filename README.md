@@ -14,11 +14,11 @@
 ### List of Cherry picked tutorial from `arduino_ide_example` branch 
 1. [Tutorial 01: Blinking led](./platformio_examples/tutorial01-blinkingled)
 2. [Tutorial 02: Binary Numbers](./platformio_examples/tutorial02-binary-numbers/)
-3. [Tutorial 03: Analog wire](./platformio_examples/tutorial03-analogwrite/ -- TODO
-4. [Tutorial 04: pwm](./platformio_examples/tutorial04-pwm/) -- TODO
+3. [Tutorial 03: Analog wire](./platformio_examples/tutorial03-analogwrite/
+4. [Tutorial 04: pwm](./platformio_examples/tutorial04-pwm/)
 5. [Tutorial 05: serialport](./platformio_examples/tutorial05-serialport/
-6. [Tutorial 06: petentiometers](./platformio_examples/tutorial06-potentiometers/) -- TODO
-7. [Tutorial 07: dimmable led](./platformio_examples/tutorial07-dimmable-led/) -- TODO
+6. [Tutorial 06: petentiometers](./platformio_examples/tutorial06-potentiometers/)
+7. [Tutorial 07: dimmable led](./platformio_examples/tutorial07-dimmable-led/)
 8. [Tutorial 08: reading numbers and string from serial port](./platformio_examples/tutorial08-reading-number-strings/) -- TODO
 9. [Tutorial 09: controlling servo with joystick](./platformio_examples/tutorial09-controlling-servo-with-joystick/) -- TODO
 10. [Tutorial 10: simple way push button as toggle switch](./platformio_examples/tutorial10-simple-way-use-pushbutton-switch/) -- TODO

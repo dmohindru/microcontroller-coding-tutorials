@@ -1,0 +1,5 @@
+/home/dhruv/Programming/arduino/arduino-tutorial-series/platformio_examples/tutorial05-serialport/Serial Monitor/cmake-build-nanoatmega328new/CMakeFiles/Production.dir
+/home/dhruv/Programming/arduino/arduino-tutorial-series/platformio_examples/tutorial05-serialport/Serial Monitor/cmake-build-nanoatmega328new/CMakeFiles/Debug.dir
+/home/dhruv/Programming/arduino/arduino-tutorial-series/platformio_examples/tutorial05-serialport/Serial Monitor/cmake-build-nanoatmega328new/CMakeFiles/Z_DUMMY_TARGET.dir
+/home/dhruv/Programming/arduino/arduino-tutorial-series/platformio_examples/tutorial05-serialport/Serial Monitor/cmake-build-nanoatmega328new/CMakeFiles/edit_cache.dir
+/home/dhruv/Programming/arduino/arduino-tutorial-series/platformio_examples/tutorial05-serialport/Serial Monitor/cmake-build-nanoatmega328new/CMakeFiles/rebuild_cache.dir
