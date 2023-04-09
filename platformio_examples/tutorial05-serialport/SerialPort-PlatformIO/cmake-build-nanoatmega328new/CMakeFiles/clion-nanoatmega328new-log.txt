@@ -1,1 +1,0 @@
-CMakeLists.txt not found in /home/dhruv/Programming/arduino/arduino-tutorial-series/platformio_examples/tutorial05-serialport/SerialPort-PlatformIO Select CMakeLists.txt
